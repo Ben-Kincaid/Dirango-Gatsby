@@ -1,7 +1,5 @@
-# gatsby-starter-default
-The default Gatsby starter.
-
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
+# Dirango-Gatsby 
+A port of Dirango2018 from [CRA](https://github.com/facebook/create-react-app) to [Gatsby](https://github.com/gatsbyjs/gatsby).
 
 ## Install
 
@@ -10,17 +8,18 @@ Make sure that you have the Gatsby CLI program installed:
 npm install --global gatsby-cli
 ```
 
-And run from your CLI:
-```sh
-gatsby new gatsby-example-site
+Clone the repo and enter the project:
+```
+git clone https://github.com/Ben-Kincaid/Dirango-Gatsby.git
+cd Dirango-Gatsby/
 ```
 
-Then you can run it by:
+Install npm modules:
+```
+npm install 
+```
+
+Then you can run the development server by:
 ```sh
-cd gatsby-example-site
 gatsby develop
 ```
-
-## Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
