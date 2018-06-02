@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Dirango',
+    title: 'Dirango Gatsby',
     phrase: 'Dirango Gatsby'
   },
   
